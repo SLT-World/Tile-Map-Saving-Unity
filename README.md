@@ -1,5 +1,5 @@
 # Tile-Map-Saving-Unity
-A project that might benefit someone who wants a tile based small-scale custom map system with the ability to save and load templates.
+A project that might benefit someone who wants a tile based small-scale custom map system with the ability to save and load templates online.
 
 It works like this, whenever a client places a road tile, the game will save the type (I use index as type) of the road tile, position and rotation to three lists.
 When the client clicks on the Save button, the game will send a post request with the data of the three list and map name to an API that will save data received into a template in an json file.
